@@ -1,0 +1,40 @@
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: auto;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+    padding: 0.5%;
+    transition: 1s;
+    border: 5px outset  ;
+
+}
+
+input:focus{
+    border: 5px outset rgb(0, 187, 255) ;
+    box-shadow: 0px 0px 6px black;
+    /* border: 1px dotted rgb(0, 187, 255); */
+}
+
+input[type="submit"] {
+  width: fit-content;
+  margin: 4% auto;
+  padding: 1% 4%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.959);
+  border-radius: 10px;
+  border: 2px solid rgb(99, 186, 0);
+}
+
+input[type="submit"]:active {
+  border: none;
+  box-shadow: 0px 0px 6px rgb(1, 125, 88);
+  border: 2px solid black;
+}
